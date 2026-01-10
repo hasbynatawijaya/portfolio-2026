@@ -1,0 +1,82 @@
+/* Theme CSS variables for consistent theming */
+
+:root {
+  /* Colors - Light Mode */
+  --color-bg-primary: #FFFFFF;
+  --color-bg-secondary: #F5F5F5;
+  --color-bg-tertiary: #E5E5E5;
+
+  --color-text-primary: #000000;
+  --color-text-secondary: #808080;
+  --color-text-tertiary: #CCCCCC;
+
+  --color-border-primary: #000000;
+  --color-border-secondary: #808080;
+
+  --color-accent: #FF0000;
+  --color-accent-hover: #CC0000;
+
+  /* Shadows */
+  --shadow-brutalist: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutalist-sm: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  --shadow-brutalist-lg: 12px 12px 0px 0px rgba(0, 0, 0, 1);
+
+  /* Borders */
+  --border-width: 3px;
+  --border-radius: 0px;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Typography */
+  --font-display: 'Space Grotesk', 'Arial Black', 'Impact', sans-serif;
+  --font-sans: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', 'Courier', monospace;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+}
+
+/* Dark Mode */
+.dark {
+  /* Colors - Dark Mode */
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #1A1A1A;
+  --color-bg-tertiary: #2A2A2A;
+
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #CCCCCC;
+  --color-text-tertiary: #808080;
+
+  --color-border-primary: #FFFFFF;
+  --color-border-secondary: #CCCCCC;
+
+  --color-accent: #FF0000;
+  --color-accent-hover: #FF3333;
+
+  /* Shadows */
+  --shadow-brutalist: 8px 8px 0px 0px rgba(255, 255, 255, 1);
+  --shadow-brutalist-sm: 4px 4px 0px 0px rgba(255, 255, 255, 1);
+  --shadow-brutalist-lg: 12px 12px 0px 0px rgba(255, 255, 255, 1);
+}
+
+/* Apply CSS variables to elements */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+code, pre, kbd, samp {
+  font-family: var(--font-mono);
+}
