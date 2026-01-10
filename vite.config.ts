@@ -3,7 +3,7 @@ import compression from 'vite-plugin-compression';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base: '/',
+  base: '/portfolio-2026/',
   root: '.',
   publicDir: 'public',
   build: {
