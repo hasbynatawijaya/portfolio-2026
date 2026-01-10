@@ -5,8 +5,12 @@ export class Router {
   private routes: RouteConfig[] = [];
   private currentRoute: RouteMatch | null = null;
   private container: HTMLElement | null = null;
+  private basePath: string = import.meta.env.BASE_URL || '/';
 
   constructor() {
+    // Normalize base path to always end with / and remove trailing /
+    this.basePath = this.basePath.replace(/\/$/, '') || '';
+
     // Listen to browser navigation events
     window.addEventListener('popstate', () => this.handleNavigation());
 
@@ -54,7 +58,8 @@ export class Router {
     }
 
     if (pushState) {
-      window.history.pushState({ path }, '', path);
+      const fullPath = this.basePath + path;
+      window.history.pushState({ path }, '', fullPath);
     }
 
     this.currentRoute = match;
@@ -66,8 +71,16 @@ export class Router {
   }
 
   private handleNavigation(): void {
-    const path = window.location.pathname;
+    const fullPath = window.location.pathname;
+    const path = this.stripBasePath(fullPath);
     this.navigate(path, false);
+  }
+
+  private stripBasePath(fullPath: string): string {
+    if (this.basePath && fullPath.startsWith(this.basePath)) {
+      return fullPath.slice(this.basePath.length) || '/';
+    }
+    return fullPath;
   }
 
   private matchRoute(path: string): RouteMatch | null {
@@ -151,7 +164,7 @@ export class Router {
   }
 
   getCurrentPath(): string {
-    return window.location.pathname;
+    return this.stripBasePath(window.location.pathname);
   }
 
   init(): void {
