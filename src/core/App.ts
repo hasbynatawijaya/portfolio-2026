@@ -33,7 +33,7 @@ export class App {
       '/',
       () => import('@/pages/home'),
       {
-        title: 'Hasby Natawijaya - Senior Frontend Engineer',
+        title: 'Hasby Natawidjaya - Senior Frontend Engineer',
         description:
           'Senior Frontend Engineer with 9 years of experience building B2B web products',
       }

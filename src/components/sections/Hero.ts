@@ -13,7 +13,7 @@ export class Hero extends Component {
           <div class="max-w-5xl">
             <!-- Name with Text Scramble -->
             <h1 class="heading-brutalist-xl mb-6" id="hero-name">
-              HASBY NATAWIJAYA
+              HASBY NATAWIDJAYA
             </h1>
 
             <!-- Title -->
@@ -55,7 +55,7 @@ export class Hero extends Component {
     if (nameElement) {
       this.textScramble = new TextScramble(nameElement as HTMLElement);
       setTimeout(() => {
-        this.textScramble?.animate('HASBY NATAWIJAYA');
+        this.textScramble?.animate('HASBY NATAWIDJAYA');
       }, 500);
     }
 

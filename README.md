@@ -1,4 +1,4 @@
-# Hasby Natawijaya - Portfolio 2026
+# Hasby Natawidjaya - Portfolio 2026
 
 A professional brutalist portfolio built with **vanilla TypeScript** and **Tailwind CSS**. No frameworks, just pure code showcasing advanced frontend engineering skills.
 

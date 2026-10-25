@@ -10,7 +10,7 @@ export class Footer extends Component {
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Column 1: Branding -->
             <div>
-              <h3 class="heading-brutalist-sm mb-4">HASBY NATAWIJAYA</h3>
+              <h3 class="heading-brutalist-sm mb-4">HASBY NATAWIDJAYA</h3>
               <p class="text-sm text-brutalist-gray mb-4">
                 Senior Frontend Engineer with 9 years of experience building B2B web products.
               </p>
@@ -57,7 +57,7 @@ export class Footer extends Component {
           <div class="border-t-brutalist border-brutalist-black dark:border-brutalist-white mt-12 pt-8">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
               <p class="font-mono text-xs text-brutalist-gray">
-                &copy; ${currentYear} Hasby Natawijaya. Built with vanilla TypeScript.
+                &copy; ${currentYear} Hasby Natawidjaya. Built with vanilla TypeScript.
               </p>
               <p class="font-mono text-xs text-brutalist-gray">
                 No frameworks. Just pure code.
