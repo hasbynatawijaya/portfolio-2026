@@ -55,7 +55,7 @@ export const experiences: Experience[] = [
     position: 'Frontend Engineer',
     location: 'Jakarta, Indonesia',
     startDate: '2022-01',
-    endDate: '2022-11',
+    endDate: '2022-12',
     current: false,
     achievements: [
       'Built Brick Connect, the embeddable widget end users go through to link bank, e-wallet and e-commerce accounts to partner apps, and the integration point for Brick\'s API clients',
