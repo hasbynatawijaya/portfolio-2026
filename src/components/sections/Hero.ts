@@ -24,16 +24,13 @@ export class Hero extends Component {
             <!-- Tagline -->
             <p class="text-xl md:text-2xl font-sans mb-12 max-w-3xl">
               Crafting performant, scalable web experiences for fintech and travel tech.
-              <span class="text-brutalist-accent">7+ years</span> of turning complex problems into elegant solutions.
+              <span class="text-brutalist-accent">9 years</span> of turning complex problems into elegant solutions.
             </p>
 
             <!-- CTAs -->
             <div class="flex flex-wrap gap-4">
               <a href="/#projects" data-link class="btn-brutalist-primary magnetic-btn">
                 View My Work
-              </a>
-              <a href="/assets/docs/Hasby_CV_2026.pdf" download class="btn-brutalist magnetic-btn">
-                Download CV
               </a>
               <a href="/#contact" data-link class="btn-brutalist magnetic-btn">
                 Get In Touch

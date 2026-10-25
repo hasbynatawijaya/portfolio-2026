@@ -43,9 +43,8 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: 'Webpack', level: 'advanced' },
       { name: 'Vite', level: 'advanced' },
-      { name: 'Docker', level: 'advanced' },
+      { name: 'Docker', level: 'intermediate' },
       { name: 'Git', level: 'expert' },
-      { name: 'AWS', level: 'intermediate' },
       { name: 'CI/CD Pipelines', level: 'advanced' },
       { name: 'Jest', level: 'advanced' },
       { name: 'Unit Testing', level: 'advanced' },
@@ -54,7 +53,7 @@ export const skillCategories: SkillCategory[] = [
   {
     category: 'Architecture & APIs',
     skills: [
-      { name: 'Micro-frontends', level: 'expert' },
+      { name: 'Micro-frontends', level: 'intermediate' },
       { name: 'Component Libraries', level: 'expert' },
       { name: 'RESTful APIs', level: 'expert' },
       { name: 'GraphQL', level: 'advanced' },
@@ -65,11 +64,9 @@ export const skillCategories: SkillCategory[] = [
   {
     category: 'Leadership & Soft Skills',
     skills: [
-      { name: 'Technical Mentoring', level: 'expert' },
       { name: 'Code Review', level: 'expert' },
       { name: 'Cross-functional Collaboration', level: 'expert' },
       { name: 'Agile/Scrum', level: 'advanced' },
-      { name: 'Architectural Decision Making', level: 'expert' },
     ],
   },
 ];

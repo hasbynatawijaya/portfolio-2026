@@ -13,26 +13,25 @@ export class About extends Component {
 
               <div class="space-y-4 text-lg">
                 <p>
-                  I'm a <strong>Senior Frontend Engineer</strong> with 7+ years of experience building
-                  scalable, high-performance web applications for fintech and travel tech industries.
+                  I'm a <strong>Senior Frontend Engineer</strong> with 9 years of experience building
+                  B2B web products across fintech, travel tech and telecom.
                 </p>
 
                 <p>
-                  Currently at <strong class="text-brutalist-accent">CSG International</strong>, I'm working on
-                  the micro-frontend migration of a legacy enterprise platform, leading a frontend team to architect modern solutions
-                  that serve thousands of telecom billing users across the APAC region.
+                  Currently at <strong class="text-brutalist-accent">CSG International</strong>, I work on the
+                  Quote &amp; Order application of an enterprise telecom billing platform, shipping features across a new
+                  Angular app and the legacy AngularJS system it runs inside as part of an incremental migration.
                 </p>
 
                 <p>
-                  I specialize in <strong>React ecosystem, TypeScript, micro-frontend architecture,
-                  and performance optimization</strong>. My work has contributed to <strong>30% revenue growth</strong>
-                  and achieved <strong>30% performance improvements</strong> in production applications.
+                  I specialize in the <strong>React ecosystem and TypeScript</strong>, and I'm happiest close to the
+                  product. I was the first frontend engineer at TruTrip, built its booking product from scratch, and was
+                  later rehired by my former manager to work on its travel policy engine.
                 </p>
 
                 <p>
-                  Beyond code, I'm passionate about <strong>technical mentoring</strong>, establishing
-                  development standards, and collaborating with cross-functional teams to deliver
-                  user-centric solutions.
+                  Beyond code, I care about clear frontend conventions, thoughtful code review, and working
+                  closely with product, design and backend to ship things people actually use.
                 </p>
               </div>
             </div>
@@ -46,9 +45,9 @@ export class About extends Component {
                   <li class="flex items-start gap-3">
                     <span class="text-brutalist-accent font-mono text-sm mt-1">[•]</span>
                     <div>
-                      <strong class="font-display">Micro-Frontend Architecture</strong>
+                      <strong class="font-display">Product Engineering</strong>
                       <p class="text-sm text-brutalist-gray mt-1">
-                        Building scalable, modular applications with clear boundaries
+                        Turning messy business rules into software people use every week
                       </p>
                     </div>
                   </li>
@@ -58,7 +57,7 @@ export class About extends Component {
                     <div>
                       <strong class="font-display">Performance Optimization</strong>
                       <p class="text-sm text-brutalist-gray mt-1">
-                        Achieving measurable improvements through intelligent caching & optimization
+                        Smarter data fetching and caching, and large result sets that stay responsive
                       </p>
                     </div>
                   </li>
@@ -66,9 +65,9 @@ export class About extends Component {
                   <li class="flex items-start gap-3">
                     <span class="text-brutalist-accent font-mono text-sm mt-1">[•]</span>
                     <div>
-                      <strong class="font-display">Technical Leadership</strong>
+                      <strong class="font-display">Legacy Modernization</strong>
                       <p class="text-sm text-brutalist-gray mt-1">
-                        Mentoring engineers, driving architectural decisions, code review excellence
+                        Migrating AngularJS to Angular incrementally while the product keeps shipping
                       </p>
                     </div>
                   </li>
@@ -78,7 +77,7 @@ export class About extends Component {
                     <div>
                       <strong class="font-display">0-to-1 Product Development</strong>
                       <p class="text-sm text-brutalist-gray mt-1">
-                        Built MVPs from scratch that scaled to millions in revenue
+                        Shipped a corporate travel MVP from scratch in four months
                       </p>
                     </div>
                   </li>

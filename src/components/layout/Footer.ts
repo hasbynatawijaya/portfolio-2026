@@ -12,7 +12,7 @@ export class Footer extends Component {
             <div>
               <h3 class="heading-brutalist-sm mb-4">HASBY NATAWIJAYA</h3>
               <p class="text-sm text-brutalist-gray mb-4">
-                Senior Frontend Engineer with 7+ years of experience building scalable web applications.
+                Senior Frontend Engineer with 9 years of experience building B2B web products.
               </p>
               <p class="font-mono text-xs text-brutalist-gray">
                 Jakarta, Indonesia
@@ -27,7 +27,6 @@ export class Footer extends Component {
                 <li><a href="/#experience" data-link class="link-brutalist">Experience</a></li>
                 <li><a href="/#projects" data-link class="link-brutalist">Projects</a></li>
                 <li><a href="/#contact" data-link class="link-brutalist">Contact</a></li>
-                <li><a href="/assets/docs/Hasby_CV_2026.pdf" download class="link-brutalist">Download CV</a></li>
               </ul>
             </div>
 
@@ -41,7 +40,7 @@ export class Footer extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com/in/hasbynatawijaya" class="link-brutalist" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/hasby-natawijaya-513b9312a" class="link-brutalist" target="_blank" rel="noopener noreferrer">
                     LinkedIn
                   </a>
                 </li>

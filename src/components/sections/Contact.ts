@@ -27,7 +27,7 @@ export class Contact extends Component {
               </a>
 
               <a
-                href="https://linkedin.com/in/hasbynatawijaya"
+                href="https://www.linkedin.com/in/hasby-natawijaya-513b9312a"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="card-brutalist-hover p-6 text-center group"
@@ -53,13 +53,10 @@ export class Contact extends Component {
             <div class="card-brutalist-accent p-8 text-center scroll-reveal-up">
               <h3 class="font-display text-2xl font-bold mb-4">Interested in working together?</h3>
               <p class="text-lg mb-6 text-brutalist-gray">
-                Download my CV or get in touch to discuss how I can contribute to your team.
+                Get in touch to discuss how I can contribute to your team.
               </p>
               <div class="flex flex-wrap justify-center gap-4">
-                <a href="/assets/docs/Hasby_CV_2026.pdf" download class="btn-brutalist-primary">
-                  Download CV (PDF)
-                </a>
-                <a href="mailto:mhasbyn@gmail.com" class="btn-brutalist">
+                <a href="mailto:mhasbyn@gmail.com" class="btn-brutalist-primary">
                   Send me an email
                 </a>
               </div>
@@ -70,8 +67,8 @@ export class Contact extends Component {
               <div class="terminal-brutalist inline-block text-left">
                 <p class="terminal-brutalist-line mb-2">Location: Jakarta, Indonesia</p>
                 <p class="terminal-brutalist-line mb-2">Status: Open to opportunities</p>
-                <p class="terminal-brutalist-line mb-2">Experience: 7+ years</p>
-                <p class="terminal-brutalist-line">Specialization: React, TypeScript, Micro-frontends</p>
+                <p class="terminal-brutalist-line mb-2">Experience: 9 years</p>
+                <p class="terminal-brutalist-line">Specialization: React, TypeScript, Next.js</p>
               </div>
             </div>
           </div>

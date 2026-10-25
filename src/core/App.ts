@@ -35,7 +35,7 @@ export class App {
       {
         title: 'Hasby Natawijaya - Senior Frontend Engineer',
         description:
-          'Senior Frontend Engineer with 7+ years of experience building scalable web applications',
+          'Senior Frontend Engineer with 9 years of experience building B2B web products',
       }
     );
 
