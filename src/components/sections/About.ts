@@ -77,7 +77,7 @@ export class About extends Component {
                     <div>
                       <strong class="font-display">0-to-1 Product Development</strong>
                       <p class="text-sm text-brutalist-gray mt-1">
-                        Shipped a corporate travel MVP from scratch in four months
+                        Built a corporate travel booking product from zero to paying customers
                       </p>
                     </div>
                   </li>

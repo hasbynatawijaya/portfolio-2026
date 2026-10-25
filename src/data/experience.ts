@@ -58,7 +58,7 @@ export const experiences: Experience[] = [
     endDate: '2022-12',
     current: false,
     achievements: [
-      'Built Brick Connect, the embeddable widget end users go through to link bank, e-wallet and e-commerce accounts to partner apps, and the integration point for Brick\'s API clients',
+      'Built the Brick widget, the embeddable flow end users go through to link bank, e-wallet and e-commerce accounts to partner apps, and the integration point for Brick\'s API clients',
       'Built the client portal in React, Redux and Material UI: transaction reporting, bulk disbursement, API key management and widget configuration',
       'Built an internal operations dashboard showing API usage and transaction volume',
       'Rebuilt the marketing site on Next.js, DatoCMS and GraphQL so the marketing team could publish without engineers',
@@ -76,7 +76,7 @@ export const experiences: Experience[] = [
     current: false,
     achievements: [
       'First frontend hire. Built the booking web app from scratch in React, Redux and Material UI',
-      'Shipped the MVP in four months (flight and hotel booking, travel policy, trip history and reports), launching with TruTrip\'s first paying corporate clients',
+      'Shipped the MVP (flight and hotel booking, travel policy, trip history and reports), launching with TruTrip\'s first paying corporate clients',
       'Shaped the booking data model and API contracts with the founders and backend team',
       'Set the frontend conventions (component patterns, state management, code review) the team kept using as it grew',
     ],
